@@ -1,0 +1,63 @@
+
+h1 { font-family: sans-sheriff; text-align: center; font-size:40px; color: }
+
+body {background-color: #FFE9AA }
+
+
+.texto { text-align: justify;
+	 height: 594px;
+	 padding-right: 18px;
+	}
+
+#principal { overflow:hidden;
+	     position:fixed;top:150px;left:320px;
+border-bottom: black 2px solid;
+	}
+
+.derecha { overflow:scroll;
+	      position:fixed;top:70px;left:320px;
+		border-top: black 2px solid;
+		text-align: justify;
+	 height: 594px;
+	 padding-right: 18px;
+	}
+
+#resumen { overflow:hidden;
+	      position:fixed;top:70px;left:320px;
+		height: 594px;
+	 	padding-right: 20px;
+  		width:70%;
+}
+
+
+
+.negrita {font-weight: bold;
+}
+
+table, th, td {  border: 1px solid black; height: 100px;
+ }
+
+td { text-align:center; }
+
+h2 { text-align: center; text-decoration:underline;}
+
+img {
+	border-width: 2px;
+	border-style: solid;
+	border-color: #000000;
+	text-align: center;
+}
+
+.imgtbl { border-width: 0px; }
+
+.esquema {	position:fixed;top:70px;left:12px;
+		width:21%;
+		border: black 5px solid;
+ 		border-top-left-radius: 20px;
+  		border-bottom-right-radius: 20px;
+		
+		overflow:hidden;
+
+}
+
+.intro {text-align: center;}
